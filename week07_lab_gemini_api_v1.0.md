@@ -503,6 +503,11 @@ flutter run
 ```text
 บันทึกรูปผลลัพธ์ที่นี่
 ```
+## รันครั้งแรก
+<img width="1917" height="867" alt="image" src="https://github.com/user-attachments/assets/a257ea55-ef6a-4e62-a2fe-7823a02d92d1" />
+
+## รันครั้งที่สอง
+<img width="1917" height="881" alt="image" src="https://github.com/user-attachments/assets/c64e46ff-4b34-4640-aa00-3710fe76e247" />
 
 ### ขั้นตอนที่ 1.2: ทดลองเปิดใช้ Structured Output ใน AI Studio
 
@@ -511,8 +516,14 @@ flutter run
 > ✅ **Checkpoint 1.2** ถ่ายภาพหน้าจอที่แสดงการตั้งค่า Structured Output และผลลัพธ์ที่ได้ อธิบายว่าผลลัพธ์ที่ได้ต่างจากตอนไม่เปิด Structured Output ในขั้นตอน 1.1 อย่างไร (อ้างอิงบทหนังสือเรียนหัวข้อ 7.4)
 
 ```text
-บันทึกผลลัพธ์ที่นี่
+ตอนไม่เปิด Structured Output โมเดลตอบเป็นข้อความธรรมดา ต้องพึ่ง Prompt สั่งให้ตอบเป็น JSON จึงอาจมีข้อความอื่นปนมา หรือโครงสร้างไม่คงที่ในแต่ละครั้ง
+ตอนเปิด Structured Output ระบบบังคับให้โมเดลตอบเป็น JSON ตาม Schema ที่กำหนด (title, category, description) ทำให้ได้ผลลัพธ์ที่ถูกโครงสร้างและครบทุก field ทุกครั้ง นำไปใช้ในโปรแกรมต่อได้ทันทีโดยไม่ต้องตัดข้อความส่วนเกิน
 ```
+## การตั้งค่า Structured Output
+<img width="932" height="675" alt="image" src="https://github.com/user-attachments/assets/f98e1720-e63d-4c7e-9d0a-e70e7bdc2db1" />
+
+## ผลลัพธ์ที่ได้
+<img width="1917" height="842" alt="image" src="https://github.com/user-attachments/assets/f5efad09-a588-4966-be02-d180b845a1aa" />
 
 ---
 
@@ -538,8 +549,9 @@ flutter run
 > ✅ **Checkpoint 2.1** รันแอปด้วยคำสั่ง `flutter run --dart-define=GEMINI_API_KEY=your_key` ถ่ายภาพหน้าจอ Debug Console และหน้า SnackBar ที่แสดงข้อความคำตอบจาก Gemini และอธิบายด้านล่าง ว่า `.timeout()` ที่ตั้งไว้กับ Gemini API (20 วินาที) ต่างจากที่ตั้งไว้กับ OpenWeather API ในสัปดาห์ที่แล้ว (10 วินาที) อย่างไร และทำไมจึงต่างกัน (อ้างอิงบทหนังสือเรียนหัวข้อ 7.3)
 
 ```text
-บันทึกผลลัพธ์ที่นี่
+สาเหตุที่ต่างกันคือ OpenWeather เป็นการดึงข้อมูลสภาพอากาศที่มีอยู่แล้วจากฐานข้อมูล จึงตอบเร็วและใช้เวลาค่อนข้างคงที่ ส่วน Gemini เป็นโมเดลภาษาที่ต้องประมวลผล prompt แล้วสร้างข้อความใหม่ขึ้นมา เวลาตอบจึงนานกว่าและไม่แน่นอน
 ```
+<img width="1318" height="1022" alt="image" src="https://github.com/user-attachments/assets/2f8161b6-880d-4bc7-80a9-ce0854ebf1d6" />
 
 ---
 
