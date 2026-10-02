@@ -464,6 +464,12 @@ flutter run
 ```text
 บันทึกรูปผลลัพธ์ที่นี่
 ```
+## หน้าHome 
+<img width="386" height="878" alt="image" src="https://github.com/user-attachments/assets/bfebca8c-e44e-4138-bb53-41d9203c58ce" />
+
+---
+## หน้าcheckout
+<img width="390" height="827" alt="image" src="https://github.com/user-attachments/assets/b9102c02-58da-4739-90cf-1f2de1eeaf9b" />
 
 > ⚠️ ถ้าหน้าจอ Home แสดง Error เช่น "ไม่สามารถโหลดรายการสินค้าได้ (สถานะ 523)" ไม่ใช่ปัญหาจากไฟล์ที่คัดลอกมา แต่เป็น Fake Store API (fakestoreapi.com) ล่มชั่วคราว (Error ของ Cloudflare ที่แปลว่าเซิร์ฟเวอร์ต้นทางเข้าไม่ถึง) ให้รอแล้วลองใหม่ หรือแจ้งอาจารย์/TA เพื่อขอไฟล์ `ItemRepositoryMock` สำรองไว้ทดสอบโดยไม่ง้อเครือข่าย
 
