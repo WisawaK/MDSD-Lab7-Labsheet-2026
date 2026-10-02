@@ -918,6 +918,13 @@ class MyApp extends StatelessWidget {
 ```text
 บันทึกผลลัพธ์ที่นี่
 ```
+## Tab หน้าหลักที่มี Bottom Navigation Bar
+<img width="426" height="971" alt="image" src="https://github.com/user-attachments/assets/6bddb488-3211-4db8-9bf3-18a265a3174a" />
+
+## ลงประกาศขายที่เลือกรูปภาพสินค้าไว้แล้ว
+<img width="430" height="972" alt="image" src="https://github.com/user-attachments/assets/4455df45-ec00-488a-b918-458c108b767f" />
+<img width="422" height="970" alt="image" src="https://github.com/user-attachments/assets/905fe606-f943-4b21-a3b4-e4fdc5688b27" />
+<img width="415" height="961" alt="image" src="https://github.com/user-attachments/assets/aadc08e2-530a-412c-979b-9904a72d484a" />
 
 ---
 
@@ -966,6 +973,10 @@ class ListingDraft {
 ```text
 บันทึกผลลัพธ์ที่นี่
 ```
+<img width="422" height="952" alt="image" src="https://github.com/user-attachments/assets/e46b7636-be9a-4345-9291-d88b2e5d1103" />
+<img width="432" height="947" alt="image" src="https://github.com/user-attachments/assets/de4ca1e6-28be-4c7d-bebb-4e6dfca6f7ff" />
+<img width="427" height="930" alt="image" src="https://github.com/user-attachments/assets/893590c6-8c7e-414c-9ca8-d888959270c7" />
+
 ---
 
 ## ส่วนที่ 5: ออกแบบหน้าจอตรวจทานและแก้ไขก่อนยืนยัน (Human-in-the-loop)
@@ -986,6 +997,8 @@ class ListingDraft {
 ```text
 บันทึกผลลัพธ์ที่นี่
 ```
+<img width="417" height="966" alt="image" src="https://github.com/user-attachments/assets/02503e36-0612-49ed-b4cb-d8398dfdc81d" />
+<img width="412" height="960" alt="image" src="https://github.com/user-attachments/assets/196a9914-6c0b-459d-bd07-2fb41e69e61e" />
 
 ---
 
